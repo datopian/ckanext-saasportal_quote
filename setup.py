@@ -32,7 +32,7 @@ setup(
     long_description=long_description,
 
     # The project's main homepage.
-    url='https://github.com/keitaroinc/ckanext-saasportal_quote',
+    url='https://github.com/ViderumGlobal/ckanext-saasportal_quote',
 
     # Author details
     author='''KeitaroInc''',
