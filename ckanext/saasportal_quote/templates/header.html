@@ -1,0 +1,12 @@
+{% ckan_extends %}
+{% block header_account_logged %}
+      {% if c.userobj.sysadmin %}
+    <a class="quote" href="https://ckan.viderum.com/quote_register">Get a quote!</a>
+    {{ super() }}
+	{% endif %}
+
+
+{% endblock %}
+
+
+
