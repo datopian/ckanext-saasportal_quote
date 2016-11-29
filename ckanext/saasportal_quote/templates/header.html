@@ -1,7 +1,7 @@
 {% ckan_extends %}
 {% block header_account_logged %}
     {% if c.userobj.sysadmin or c.userobj.admin or c.userobj.editor or c.userobj.member %}
-        <a class="btn quote" href="https://ckan.viderum.com/quote_register/"+{{g.site_id}}>Get a quote!</a>
+        <a class="btn quote" href="https://viderum-saas-portal-staging.herokuapp.com/quote_register/"+{{g.site_id}}>Get a quote!</a>
 	{% endif %}
 	{{ super() }}
 {% endblock %}
