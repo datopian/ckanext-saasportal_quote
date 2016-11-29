@@ -1,8 +1,12 @@
-.quote {
+.quote{
   position: absolute; 
   left:0;
+  background-image: none !important;
+  background-color: #ffcc00;
 }
-
+.quote:hover{
+  background-color: #ffcc00;
+}
 .container {
   margin-right: auto;
   margin-left: auto;
