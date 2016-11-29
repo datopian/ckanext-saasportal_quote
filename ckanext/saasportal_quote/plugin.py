@@ -1,6 +1,7 @@
 import ckan.plugins as plugins
 import ckan.plugins.toolkit as toolkit
 
+from helpers import is_admin, is_member, is_editor
 
 class Saasportal_QuotePlugin(plugins.SingletonPlugin):
     plugins.implements(plugins.IConfigurer)
@@ -11,3 +12,8 @@ class Saasportal_QuotePlugin(plugins.SingletonPlugin):
         toolkit.add_template_directory(config_, 'templates')
         toolkit.add_public_directory(config_, 'public')
         toolkit.add_resource('fanstatic', 'saasportal_quote')
+
+    def get_helpers(self):
+        return {'saasportal_is_admin': is_admin,
+        		'saasportal_is_member': is_member,
+        		'saasportal_is_editor': is_editor}
