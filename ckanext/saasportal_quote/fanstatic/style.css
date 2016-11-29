@@ -2,3 +2,10 @@
   position: absolute; 
   left:0;
 }
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  position: relative !important;
+  *zoom: 1;
+}
