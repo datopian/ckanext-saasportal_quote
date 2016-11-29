@@ -1,10 +1,15 @@
+import logging
+
 import ckan.plugins as plugins
 import ckan.plugins.toolkit as toolkit
 
 from helpers import is_admin, is_member, is_editor
 
+log = logging.getLogger(__name__)
+
 class Saasportal_QuotePlugin(plugins.SingletonPlugin):
     plugins.implements(plugins.IConfigurer)
+    plugins.implements(plugins.ITemplateHelpers)
 
     # IConfigurer
 
