@@ -2,7 +2,7 @@ import logging
 
 import ckan.plugins as plugins
 import ckan.plugins.toolkit as toolkit
-from ckan.common import config
+from pylons import config
 
 from helpers import is_admin, is_member, is_editor
 
