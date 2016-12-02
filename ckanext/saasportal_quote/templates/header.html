@@ -1,7 +1,7 @@
 {% ckan_extends %}
 {% block header_account_logged %}
     {% if h.saasportal_is_admin() or h.saasportal_is_editor() or h.saasportal_is_member() %}
-        <a class="btn quote" href="https://viderum-saas-portal-staging.herokuapp.com/quote_register/{{ c.userobj.email }}">Get a quote!</a>
+        <a class="btn quote" href="https://viderum-saas-portal-staging.herokuapp.com/quote_register/{{ g.saas_authorize }}">Get a quote!</a>
 	{% endif %}
 	{{ super() }}
 {% endblock %}
