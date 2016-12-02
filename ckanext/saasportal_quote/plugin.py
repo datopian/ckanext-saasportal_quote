@@ -26,5 +26,5 @@ class Saasportal_QuotePlugin(plugins.SingletonPlugin):
 
     def get_saas_auth(self):
         saas_authorize = config.get(
-            'ckanext.saas_portal_quote.saas_authorize', '')
+            'ckanext.saasportal_quote.saas_authorize', '')
         return {'saasportal_authorize': saas_authorize}
