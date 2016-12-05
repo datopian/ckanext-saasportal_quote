@@ -8,6 +8,11 @@ from helpers import is_admin, is_member, is_editor
 
 log = logging.getLogger(__name__)
 
+def get_saas_auth():
+    saas_authorize = config.get(
+        'ckanext.saasportal_quote.saas_authorize', '')
+    return {'saasportal_authorize': saas_authorize}
+
 class Saasportal_QuotePlugin(plugins.SingletonPlugin):
     plugins.implements(plugins.IConfigurer)
     plugins.implements(plugins.ITemplateHelpers)
@@ -22,9 +27,6 @@ class Saasportal_QuotePlugin(plugins.SingletonPlugin):
     def get_helpers(self):
         return {'saasportal_is_admin': is_admin,
         		'saasportal_is_member': is_member,
-        		'saasportal_is_editor': is_editor}
-
-    def get_saas_auth(self):
-        saas_authorize = config.get(
-            'ckanext.saasportal_quote.saas_authorize', '')
-        return {'saasportal_authorize': saas_authorize}
+                'saasportal_is_editor': is_editor,
+                'saasportal_authorize': get_saas_auth
+                }
