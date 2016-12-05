@@ -11,7 +11,7 @@ log = logging.getLogger(__name__)
 def get_saas_auth():
     saas_authorize = config.get(
         'ckanext.saasportal_quote.saas_authorize', '')
-    return {'saasportal_authorize': saas_authorize}
+    return saas_authorize
 
 class Saasportal_QuotePlugin(plugins.SingletonPlugin):
     plugins.implements(plugins.IConfigurer)
