@@ -1,6 +1,6 @@
 {% ckan_extends %}
 {% block header_account_logged %}
-    {% if h.saasportal_is_admin() or h.saasportal_is_editor() or h.saasportal_is_member() %}
+    {% if c.userobj.sysadmin or h.saasportal_is_admin() or h.saasportal_is_editor() or h.saasportal_is_member() %}
         <a class="btn quote" href="https://viderum-saas-portal-staging.herokuapp.com/quote_register/{{ h.saasportal_authorize() }}">Get a quote!</a>
 	{% endif %}
 	{{ super() }}
