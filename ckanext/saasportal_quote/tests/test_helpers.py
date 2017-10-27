@@ -1,4 +1,3 @@
-from nose.tools import assert_raises, raises
 from ckan.tests import helpers, factories
 import unittest
 from ckan import plugins, logic
@@ -38,6 +37,6 @@ class TestHelpers(ActionBase):
     def test_user_is_not_in_org(self):
         u = factories.User()
         context = {
-            'user' : u['name']
+            'user': u['name']
         }
         self.assertFalse(h.is_user_in_org(context=context))
