@@ -4,8 +4,6 @@ import ckan.plugins as plugins
 import ckan.plugins.toolkit as toolkit
 from pylons import config
 
-from helpers import is_user_in_org
-
 log = logging.getLogger(__name__)
 
 
@@ -27,6 +25,4 @@ class Saasportal_QuotePlugin(plugins.SingletonPlugin):
         toolkit.add_resource('fanstatic', 'saasportal_quote')
 
     def get_helpers(self):
-        return {'saasportal_authorize': get_saas_auth,
-                'saasportal_is_user_in_org': is_user_in_org,
-                }
+        return {'saasportal_authorize': get_saas_auth}
