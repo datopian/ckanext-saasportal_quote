@@ -1,3 +1,5 @@
+## Request data &middot; [![Build Status](https://travis-ci.org/ViderumGlobal/ckanext-saasportal_quote.svg?branch=master)](https://travis-ci.org/ViderumGlobal/ckanext-saasportal_quote)  [![Coverage Status](https://coveralls.io/repos/github/ViderumGlobal/ckanext-saasportal_quote/badge.svg?branch=master)](https://coveralls.io/github/ViderumGlobal/ckanext-saasportal_quote?branch=master)
+
 .. You should enable this project on travis-ci.org and coveralls.io to make
    these badges work. The necessary Travis and Coverage config files have been
    generated for you.
