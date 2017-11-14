@@ -10,6 +10,7 @@
 .. image:: https://coveralls.io/repos/ViderumGlobal/ckanext-saasportal_quote/badge.svg
     :target: https://coveralls.io/r/ViderumGlobal/ckanext-saasportal_quote
 
+
 =============
 ckanext-saasportal_quote
 =============
