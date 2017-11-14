@@ -10,26 +10,6 @@
 .. image:: https://coveralls.io/repos/jgulic_/ckanext-saasportal_quote/badge.svg
   :target: https://coveralls.io/r/jgulic_/ckanext-saasportal_quote
 
-.. image:: https://pypip.in/download/ckanext-saasportal_quote/badge.svg
-    :target: https://pypi.python.org/pypi//ckanext-saasportal_quote/
-    :alt: Downloads
-
-.. image:: https://pypip.in/version/ckanext-saasportal_quote/badge.svg
-    :target: https://pypi.python.org/pypi/ckanext-saasportal_quote/
-    :alt: Latest Version
-
-.. image:: https://pypip.in/py_versions/ckanext-saasportal_quote/badge.svg
-    :target: https://pypi.python.org/pypi/ckanext-saasportal_quote/
-    :alt: Supported Python versions
-
-.. image:: https://pypip.in/status/ckanext-saasportal_quote/badge.svg
-    :target: https://pypi.python.org/pypi/ckanext-saasportal_quote/
-    :alt: Development Status
-
-.. image:: https://pypip.in/license/ckanext-saasportal_quote/badge.svg
-    :target: https://pypi.python.org/pypi/ckanext-saasportal_quote/
-    :alt: License
-
 =============
 ckanext-saasportal_quote
 =============
