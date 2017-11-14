@@ -1,6 +1,6 @@
 {% ckan_extends %}
 {% block header_account_logged %}
-    {% if c.userobj.sysadmin or h.saasportal_is_admin() or h.saasportal_is_editor() or h.saasportal_is_member() %}
+    {% if c.userobj.sysadmin %}
         <a class="btn quote" href="https://ckan.viderum.com/quote_register/{{ h.saasportal_authorize() }}">Get a quote!</a>
 	{% endif %}
 	{{ super() }}

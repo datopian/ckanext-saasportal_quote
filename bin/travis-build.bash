@@ -29,7 +29,6 @@ cd -
 
 echo "Installing ckanext-saasportal_quote and its requirements..."
 python setup.py develop
-pip install -r dev-requirements.txt
 
 echo "Moving test.ini into a subdir..."
 mkdir subdir
