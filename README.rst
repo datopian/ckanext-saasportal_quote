@@ -7,8 +7,8 @@
 .. image:: https://travis-ci.org/ViderumGlobal/ckanext-saasportal_quote.svg?branch=master
     :target: https://travis-ci.org/ViderumGlobal/ckanext-saasportal_quote
 
-.. image:: https://coveralls.io/repos/ViderumGlobal/ckanext-saasportal_quote/badge.svg
-    :target: https://coveralls.io/repo/ViderumGlobal/ckanext-saasportal_quote
+.. image:: https://coveralls.io/repos/github/ViderumGlobal/ckanext-saasportal_quote/badge.svg?branch=master
+    :target: https://coveralls.io/github/ViderumGlobal/ckanext-saasportal_quote?branch=master
 
 =============
 ckanext-saasportal_quote
