@@ -10,6 +10,7 @@
 .. image:: https://coveralls.io/repos/github/ViderumGlobal/ckanext-saasportal_quote/badge.svg?branch=master
     :target: https://coveralls.io/github/ViderumGlobal/ckanext-saasportal_quote?branch=master
 
+
 =============
 ckanext-saasportal_quote
 =============
