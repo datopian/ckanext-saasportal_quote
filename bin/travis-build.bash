@@ -21,7 +21,7 @@ sudo -u postgres psql -c 'CREATE DATABASE ckan_test WITH OWNER ckan_default;'
 
 echo "Initialising the database..."
 cd ckan
-paster --plugin db init -c test-core.ini
+paster --plugin ckan db init -c test-core.ini
 cd -
 
 echo "Installing ckanext-saasportal_quote and its requirements..."
