@@ -12,6 +12,8 @@ git clone https://github.com/ckan/ckan
 cd ckan
 git checkout "ckan-2.7.2"
 python setup.py develop
+pip install -r requirements.txt
+pip install -r dev-requirements.txt
 pip install coveralls
 cd -
 
@@ -21,7 +23,7 @@ sudo -u postgres psql -c 'CREATE DATABASE ckan_test WITH OWNER ckan_default;'
 
 echo "Initialising the database..."
 cd ckan
-paster db init -c test-core.ini
+paster --plugin ckan db init -c test-core.ini
 cd -
 
 echo "Installing ckanext-saasportal_quote and its requirements..."
