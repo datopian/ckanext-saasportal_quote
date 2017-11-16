@@ -4,7 +4,7 @@
    these badges work. The necessary Travis and Coverage config files have been
    generated for you.
 
-.. image:: https://travis-ci.org/ViderumGlobal/ckanext-saasportal_quote.svg?branch=master
+.. image:: https://travis-ci.org/repos/github/ViderumGlobal/ckanext-saasportal_quote.svg?branch=master
     :target: https://travis-ci.org/ViderumGlobal/ckanext-saasportal_quote
 
 .. image:: https://coveralls.io/repos/github/ViderumGlobal/ckanext-saasportal_quote/badge.svg?branch=master
