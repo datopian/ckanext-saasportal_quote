@@ -15,18 +15,7 @@
 ckanext-saasportal_quote
 =============
 
-.. Put a description of your extension here:
-   What does it do? What features does it have?
-   Consider including some screenshots or embedding a video!
-
-
-------------
-Requirements
-------------
-
-For example, you might want to mention here which versions of CKAN this
-extension works with.
-
+This extension provides 'Get a quote' button in the header that redirects to Quote register form in Viderum page.
 
 ------------
 Installation
@@ -58,12 +47,6 @@ To install ckanext-saasportal_quote:
 ---------------
 Config Settings
 ---------------
-
-Document any optional config settings here. For example::
-
-    # The minimum number of hours to wait before re-checking a resource
-    # (optional, default: 24).
-    ckanext.saasportal_quote.some_setting = some_default_value
 
 
 ------------------------
